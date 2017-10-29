@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 # Created on Thu Oct 5 14:07:10 2017
 
-# @author: ashwini
-
 # refer https://docs.python.org/2/library/socket.html#socket.SOCK_STREAM for socket programming documentation
 
 from socket import *
