@@ -13,3 +13,4 @@ snap3.truncate(0)
 channel1.truncate(0)
 channel2.truncate(0)
 channel3.truncate(0)
+ 
