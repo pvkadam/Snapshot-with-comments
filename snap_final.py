@@ -112,7 +112,7 @@ class Customer:
 
             outfile = 'snaps.txt'
             destination = open(outfile, 'wb')
-            shutil.copyfileobj(open('outputfiles/snaps_1.txt', 'rb'), destination)
+            shutil.copyfileobj(open('outputfiles/snaps_1.txt', 'rb'), destination)  # shutil is basically used for high level operation
             shutil.copyfileobj(open('outputfiles/snaps_2.txt', 'rb'), destination)
             shutil.copyfileobj(open('outputfiles/snaps_3.txt', 'rb'), destination)
             shutil.copyfileobj(open('outputfiles/channels_1.txt', 'rb'), destination)
